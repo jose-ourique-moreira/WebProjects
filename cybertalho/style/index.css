@@ -1,4 +1,6 @@
-
+body{
+    background-image: url('../images/background.jpg');
+}
 #navbar{
     overflow: hidden;
     background-color: brown;
@@ -8,9 +10,11 @@
     float: left;
     color: goldenrod;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    font-size: 30px;
 }
 
 #navbar a:hover{
@@ -18,9 +22,20 @@
     color: goldenrod; 
 }
 
+.title{
+margin: auto;
+width: 50%;    
+}
+
 .headline{
-    margin-top: 30px;
     text-align: center;
     background-color: brown;
     border-radius: 40px;
+    margin-top: 60px;
+    padding: 10px;
+    color:goldenrod;
+}
+
+#registerlogin{
+    float: right;
 }
